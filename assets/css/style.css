@@ -1,5 +1,5 @@
 :root {
-    --raleway: 'raleway';
+    --raleway: 'Raleway', sans-serif;
     --background-blanco: #F5F5F5;
     --fuente-barra: #A2A2A2;
     --fuente-banner: #FFFFFF;
@@ -39,7 +39,9 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 50%;
+    margin-right: 5%;
+    width: 100%;
+    
 }
 
 .busqueda_campo {
@@ -47,6 +49,8 @@ header {
     border-radius: 1.25rem;
     border: none;
     background-color: var(--background-blanco);
+    width: 50%;
+    margin-left: 5%;
 }
 
 .busqueda_campo:focus {
